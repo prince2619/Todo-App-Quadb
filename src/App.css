@@ -1,0 +1,17 @@
+.main-layout {
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .main-layout {
+        max-width: 70%;
+    }
+}
+
+@media (max-width: 640px) {
+    .main-layout {
+        max-width: 90%;
+    }
+}
